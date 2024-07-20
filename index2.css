@@ -1,0 +1,913 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 151px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.logoimg{
+    width: 280px;
+    height: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    
+}
+.logo{
+    width: 184px;
+    height: 136px;
+
+}
+.navlist{
+    width: 1250px;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.call{
+    width: 1250px;
+    height: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.phn{
+    width: 254px;
+    height: 48px;
+    display: flex;
+    gap: 12px;
+}
+.phnimg{
+    width: 24px;
+    height: 24px;
+
+}
+.icon{
+    width: 48px;
+    height: 48px;
+    background-color:whitesmoke;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text a{
+    color: black;
+    text-decoration: none;
+
+    
+}
+.text p{
+    font-weight: bold;
+}
+.text a:hover{
+    text-decoration: underline;
+
+}
+
+.list{
+    width: 1250px;
+    height: 50%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.items{
+    width: 700px;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 100px;
+    gap: 10px;
+}
+li{
+    list-style: none;
+}
+.contact{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contactus{
+    width: 180px;
+    height: 60%;
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mode{
+    width: 120px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mode svg{
+    width: 30px;
+    height: 30px;
+
+}
+.main1{
+    width: 100%;
+    height: 750px;
+    background-color:whitesmoke ;
+}
+.innerbg{
+    display: flex;
+    justify-content: end;
+}
+.innerbg img{
+    width: 510px;
+    height: 750px;
+}
+.card{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    bottom: 650px;
+    left: 150px;
+    display: flex;
+}
+.landing{
+    width: 50%;
+    height: 100%;
+}
+.landing img{
+    width: 610px;
+    height: 600px;
+}
+.innercont{
+    width: 50%;
+    height: 100%;
+}
+.innercont h1{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.innercont p{
+    font-weight:lighter;
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+}
+.estimate{
+    width: 180px;
+    height: 60px;
+    background-color: brown;
+    margin-top: 50PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.estimate p{
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    
+}
+.review{
+    width: 500px;
+    height: 80px;
+    position: relative;
+    top: 80px;
+    display: flex;
+
+}
+.review h1{
+    font-weight: bolder;
+}
+.review p{
+    font-size: small;
+}
+.exp{
+    width: 30%;
+    height: 100%;
+}
+.custmers{
+    width: 30%;
+    height: 100%;
+}
+.reviews{
+    width: 30%;
+    height: 100%;
+}
+.main2{
+    width: 95%;
+    height: 800px;
+    /* background-color: aqua; */
+    margin-left: 40px;
+    position: relative;
+    top: 100px;
+}
+.ourpainting{
+    width: 100%;
+    height: 233px;
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    text-align: center;
+}
+.ourpainting span{
+    color:brown;
+    font-weight: bolder;
+}
+.ourpainting h1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 2.5rem;
+}
+.ourpainting p{
+    font-size: 20px;
+    font-family: cursive;
+}
+.boxes{
+    width: 100%;
+    height: 305px;
+    /* background-color: blue; */
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 24%;
+    height: 100%;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.box img{
+    width: 50px;
+    height: 50px;
+}
+.box h2{
+    font-size: large;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+.box p{
+    font-size: large;
+    text-align: center;
+    font-family: cursive;
+}
+.QUOTE{
+    width: 180px;
+    height: 60PX;
+    background-color: brown;
+    position: relative;
+    top: 120px;
+    left: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.QUOTE P{
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+}
+.main3{
+    width: 100%;
+    height: 1200px;
+    background-color: whitesmoke;
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+.featuredservice{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.featuredcont{
+    padding-top:300px ;
+}
+.featuredcont span{
+    font-weight: bolder;
+    color: brown;
+    
+}
+.featuredcont h1{
+    font-size: 30px;
+    font-weight:bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.featuredcont p{
+    font-size: larger;
+    font-family: cursive;
+    font-weight: lighter;
+}
+.estimate2{
+    width: 180px;
+    height: 60px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    
+}
+.estimate2 p{
+    color: white;
+    font-weight: bolder;
+}
+.featuredimg{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bg{
+    width: 570px;
+    height: 690px;
+    background-color:gray;
+    rotate: 15deg;
+    opacity: 0.3;
+}
+.featuredimg img{
+    width: 570px;
+    height: 690px;
+    position: absolute;
+}
+.main4{
+    width: 100%;
+    height: 100vh;
+    background-image: url(why.jpg);
+    /* background-color: aqua; */
+    margin-bottom: 70px;
+    
+}
+.dealpainting{
+    width: 100%;
+    height: 100%;
+    margin-top:60px;
+}
+.experience{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+.experience span{
+    font-size: large;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.experience h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.experience p{
+    font-size: x-large;
+    /* font-family:  monospace; */
+    text-align: center;
+}
+.boxpetti{
+    width: 80%;
+    height: 40%;
+    margin-top: 50px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-left: 150px;
+    
+    
+}
+.petti{
+    width:24% ;
+    height: 100%;
+    color: white;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.petti img{
+    width: 90px;
+    height: 90xpx;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.petti h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+
+}
+.petti p{
+    font-size: large;
+    text-align: center;
+}
+.main5{
+    width: 100%;
+    height: 170vh;
+    /* background-color: blue; */
+}
+.additionalpaint{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.additionalpaint span{
+    font-weight: bolder;
+    font-size: 20px;
+    color: brown;
+}
+.additionalpaint h2{
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.additionalpaint p{
+    font-size: large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.sections{
+    width: 100%;
+    height: 55% ;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.sections1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sections2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.sec{
+    width: 22%;
+    height: 100%;
+    /* background-color: red; */
+    border: 1px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec img{
+    width: 80px;
+    height: 80px;
+    background-color:whitesmoke;
+    box-sizing: border-box;
+    padding: 20PX;
+}
+.sec h2{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec p{
+    font-size: large;
+    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.appointment{
+    width: 230px;
+    height: 60px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40px;
+    margin-left: 650px;
+    margin-top: 10px;
+}  
+.appointment p{
+    font-weight: bold;
+    color: white;
+}
+.main6{
+    width: 100%;
+    height: 140vh;
+    background-color: whitesmoke;
+    display: flex;
+    position: relative;
+}
+.remodel{
+    width: 40%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 100PX;
+}
+.remodel span{
+    font-weight: bolder;
+    font-size: medium;
+    color: brown;
+    padding-top: 170PX;
+}
+.remodel h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.remodel p{
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.schedule{
+    width: 230px;
+    height: 60px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schedule p{
+    font-weight: bolder;
+    color: white;
+    font-size: medium;
+    
+}
+.tenbg{
+    width: 60%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tenbg img{
+    width: 500px;
+    height: 680px;
+    padding: 30px 0 0 30px;
+}
+.bathroom{
+    width: 325px;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-image: url(assets/call_files/bathroom-home.jpg);
+    background-size: 325px 325px;
+    left: 780px;
+    top: 460px;
+}
+.bathroom img{
+    width: 325px;
+    height: 325px;
+}
+.tenyearexp{
+    width: 280px; ;
+    height: 280px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tenyearexp h2{
+    font-size: 80px;
+    font-weight: bolder;
+    color: gray;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tenyearexp h3{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main7{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    /* gap: 10%; */
+   
+}
+.faq{
+    width: 100%;
+    height: 30%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.faq span{
+    font-size: 20px;
+    font-weight: bolder;
+    color: brown;
+    padding-top: 20px;
+    
+}
+.faq h2{
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.frequently{
+    width: 100%;
+    height: 60%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.freq1{
+    width: 50%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+}
+.freq2{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 38px;
+     gap: 10px;
+
+}
+.freqbox{
+    width: 90%;
+    height: 15%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+
+}
+.freqbox img{
+    width: 20px;
+    height: 20px;
+    rotate: -90deg;
+}
+.freqbox p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.main8{
+    width: 100%;
+    height: 120vh;
+    background-color:whitesmoke;
+}
+.testimonals{
+    width: 100%;
+    height: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.testimonals span{
+    font-size: large;
+    font-weight: bolder;
+    color: brown;
+}
+.testimonals h2{
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.testimonals p{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.testimonalbox{
+    width: 90%;
+    height: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 70px;
+}
+.kpa{
+    width: 30%;
+    height:100%;
+    background-color: white;
+    padding-left: 20px;
+}
+.kpa img{
+    padding-top: 40px;
+}
+.kpa h2{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.kpa p{
+    font-size: larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.kpa h5{
+    font-size: larger;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.read{
+    width: 230px;
+    height: 60px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 640px;
+    top: 50px;
+}
+.read p{
+    font-size: medium;
+    font-weight: bolder;
+    color: white;
+}
+.main9{
+    width: 100%;
+    height: 120vh;
+    background-color: bisque;
+}
+.renovation{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(187, 11, 11);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 300px;
+}
+.renovation h2{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+
+}
+.renovestimation{
+    width: 230px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.renovestimation p{
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.realdeal{
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.body{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+.painting{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    /* background-color: aqua; */
+}
+.paintlogo{
+    width: 25%;
+    height: 100%;
+    /* background-color: bisque; */
+}
+.painting img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    bottom: 88px;
+}
+.quick{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    gap: 5px;
+}
+.link{
+    width: 20%;
+    height:100%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.link img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 10px;
+}
+.link h3{
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.link li{
+    font-size: large;
+    font-family:sans-serif ;
+}
+.last{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap: 20px;
+    /* background-color: blueviolet; */
+    border-bottom: 2px solid gray;
+}
+.last li{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
